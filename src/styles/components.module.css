@@ -1,0 +1,52 @@
+.itemCtn {
+  height: 11rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: #b5baaa 1px solid;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.imageCtn {
+  height: 8rem;
+  width: 15rem;
+  background-color: #b5baaa;
+}
+
+.textTitle {
+  text-align: center;
+}
+
+.settingCtn {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.titleSetting {
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+  border-bottom: #b5baaa 1px solid;
+}
+
+.settingBd {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.settingItem {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 3rem;
+}
+
+.inputCtn {
+  margin-top: 0.5rem;
+  height: 4rem;
+  display: flex;
+}

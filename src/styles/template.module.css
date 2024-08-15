@@ -1,0 +1,55 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerCtn {
+  display: flex;
+  height: 3rem;
+  background-color: #ffff;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 1rem;
+  border-bottom: #191a19 1px solid;
+}
+
+.buttonCtn {
+  width: 8rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(38, 38, 38);
+  color: rgb(238, 238, 238);
+  border-radius: 0.5rem;
+}
+
+.mainCtn {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.leftSection {
+  display: flex;
+  flex: 2;
+  border-right: #191a19 1px solid;
+}
+
+.leftSection p:hover {
+  background-color: #71e47d;
+}
+
+.leftSection h1:hover {
+  background-color: #71e47d;
+}
+
+.leftSection a:hover {
+  background-color: #71e47d;
+}
+
+.rightSection {
+  display: flex;
+  flex: 1;
+}
